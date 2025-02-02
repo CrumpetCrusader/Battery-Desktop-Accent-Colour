@@ -21,14 +21,14 @@ $powerSource = Get-PowerSource
 
 if ($powerSource -eq $true) {
     # AC power (plugged in) - green accent color
-    Set-ItemProperty -Path $RegistryPath -Name AccentPalette -Value $RAccPal -PropertyType HEX -Force
+    Set-ItemProperty -Path $RegistryPath -Name AccentPalette -Value $RAccPal -Type HEX -Force
     Set-ItemProperty -Path $RegistryPath -Name StartColorMenu -Value $RValueS -Type DWORD -Force 
     Set-ItemProperty -Path $RegistryPath -Name AccentColorMenu -Value $RValueA -Type DWORD -Force  
     Stop-Process -Name explorer -Force
 } else {
     # DC power (battery) - red accent color
-    Set-ItemProperty -Path $RegistryPath -Name AccentPalette -Value $GAccPal -PropertyType HEX -Force
-    Set-ItemProperty -Path $RegistryPath -Name StartColorMenu -Value $GValueS -PropertyType DWORD -Force 
-    Set-ItemProperty -Path $RegistryPath -Name AccentColorMenu -Value $GValueA -PropertyType DWORD -Force 
+    Set-ItemProperty -Path $RegistryPath -Name AccentPalette -Value $GAccPal -Type HEX -Force
+    Set-ItemProperty -Path $RegistryPath -Name StartColorMenu -Value $GValueS -Type DWORD -Force 
+    Set-ItemProperty -Path $RegistryPath -Name AccentColorMenu -Value $GValueA -Type DWORD -Force 
     Stop-Process -Name explorer -Force
 }
