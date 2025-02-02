@@ -1,19 +1,23 @@
 # Battery Desktop Accent Colour
 To change Windows accent colour depending on BatteryState
 
-My intention is change microsoft windows 11 accent Colour Depending on battery state, AC = Green DC= Red 
+I intend to change the Microsoft Windows 11 accent Colour Depending on the battery state, AC = Green DC= Red 
 
-i use laptops in event production and mid event a laptop died as i didnt notice someone had unplugged the laptops power
-so now i aim make a script for windows to run in task schecular, upon system event 105 (which i think is power state change).
+I use laptops in event production and mid-event a laptop died as I didn't notice someone had unplugged the laptop's power
+so now I am making a script for Windows to run in the task scheduler, upon system event 105 (System/Kernal-power) (which I think is power state change).
 
-i want the scrpt to
+I want the script to
 check power state 
-if AC/Mains make windos accent colour GREEN
+if AC/Mains make windows accent colour GREEN
 if on DC/Battery Make windows Accent colour RED
 restart explorer.exe
 
-i made 2 regedits that do the job, im just trying to powershell send the regestry Values by itself, but it wont... ha
+I made 2 reg edits that do the job, I'm just trying to Powershell send the registry Values by itself, but it won't... ha
 
-this is my first coding venture on github, i hope you good people can help correct my code, i dont know what im doing ha.
+this is my first coding venture on Git Hub, I hope you good people can help correct my code, I don't know what I'm doing ha.
 
-filename= prcol.ps1
+script= prcol.ps1
+Task schedule= Colourchanger.xml
+
+edit:
+can someone optimise this ha and comment if there's an argument for Powershell to run silently
