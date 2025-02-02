@@ -1,4 +1,4 @@
-# Battery-Desktop-Accent-Colour
+ Battery Desktop Accent Colour
 To change Windows accent colour depending on BatteryState
 
 My intention is change microsoft windows 11 accent Colour Depending on battery state, AC = Green DC= Red 
