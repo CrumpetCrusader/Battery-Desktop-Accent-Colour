@@ -14,6 +14,6 @@ restart explorer.exe
 
 i made 2 regedits that do the job, im just trying to powershell send the regestry Values by itself, but it wont... ha
 
-this is my first coding venture on github, i hope you good people can help correct my code, still working out how to publish code ha
+this is my first coding venture on github, i hope you good people can help correct my code, i dont know what im doing ha.
 
 filename= prcol.ps1
