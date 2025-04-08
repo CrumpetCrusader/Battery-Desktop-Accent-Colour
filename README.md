@@ -13,7 +13,7 @@ restart explorer.exe
 
 # INSTRUCTIONS:
 Install TranslucentTB
-You'll have to edit the script to point it to your TranslucentTB settings.json
+You'll have to edit the script.ps1 to point it to your TranslucentTB settings.json
 mine is at:
 C:\Users\Ben\AppData\Local\Packages\28017CharlesMilette.TranslucentTB_v826wp6bftszj\RoamingState
 
