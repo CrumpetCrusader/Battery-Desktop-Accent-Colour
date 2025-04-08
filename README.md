@@ -15,7 +15,7 @@ restart explorer.exe
 Install TranslucentTB
 You'll have to edit the script to point it to your TranslucentTB settings.json
 mine is at:
-C:\Users\Ben\AppData\Local\Packages\28017CharlesMilette.TranslucentTB_v826wp6bftszj\RoamingStateC:\Users\Ben\AppData\Local\Packages\28017CharlesMilette.TranslucentTB_v826wp6bftszj\RoamingState
+C:\Users\Ben\AppData\Local\Packages\28017CharlesMilette.TranslucentTB_v826wp6bftszj\RoamingState
 
 Then open Task Scheduler,
 navigate to Microsoft/Windows/Application Experience
@@ -27,10 +27,8 @@ Under Actions, click New, click Browse and point it to where you've saved Hidden
 click ok and ok again
 Done
 
+# Notes
 This is my first coding venture on Git Hub, I hope you good people can help correct my code, I don't know what I'm doing, ha.
-
-script= prcol.ps1
-Task schedule= Colourchanger.xml
 
 edit:
 Can someone help me make an installer ha
